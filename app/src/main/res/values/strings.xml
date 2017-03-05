@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">To DO</string>
+    <string name="add_task">Add Task</string>
+    <string name="title_item_todo">Hello</string>
+    <string name="done_item_todo">Done</string>
+    <string name="date_item_todo">Date</string>
+    <string name="time_item_todo">Time</string>
+    <string name="task_title_label">Title</string>
+    <string name="task_title_hint">Title of new task</string>
+</resources>
