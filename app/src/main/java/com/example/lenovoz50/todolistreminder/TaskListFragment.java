@@ -93,7 +93,6 @@ public class TaskListFragment extends Fragment {
     }
 
     private class TaskHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
-
         private TextView mTitleTextView;
         private TextView mDateTextView;
         private TextView mTimeTextView;
@@ -108,13 +107,11 @@ public class TaskListFragment extends Fragment {
             mTimeTextView = (TextView) itemView.findViewById(R.id.task_time_textView);
             mDoneButton = (Button) itemView.findViewById(R.id.task_delete);
         }
-
         @Override
         public void onClick(View v) {
             Intent intent = TaskViewPagerActivity.newIntent(getActivity(), mTask.getID());
             startActivity(intent);
         }
-
         public void bindTask(final TaskItem task){
             mTask = task;
             String updatedDate = new SimpleDateFormat("yyyy-MM-dd").format(mTask.getDate());

@@ -54,7 +54,7 @@ public class TimePickerFragment extends DialogFragment {
 
         return new AlertDialog.Builder(getActivity())
                 .setView(v)
-                .setTitle(R.string.date_item_todo)
+                .setTitle(R.string.time_item_todo)
                 .setPositiveButton(android.R.string.ok,
                         new DialogInterface.OnClickListener() {
                             @RequiresApi(api = Build.VERSION_CODES.M)
